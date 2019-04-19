@@ -1,11 +1,11 @@
-# supervisor
+# Supervisor
 Bash shell script that check if service is running in a regular interval and started if the service is down.
 
-##Usage
+## Usage
 ```
 $./supervisor.sh [waittime] [attempts] [procname] [interval]
 ```
-Parameters:
+### Parameters:
 
 waittime: Wait time in seconds between attempts to restart service  
 attempts: Number of attempts before giving up  
